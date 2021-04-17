@@ -1,0 +1,58 @@
+.aboutusHomeImage {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url("../../images/aboutus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+}
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+.button{
+    border-radius: 20px;
+}
+.aboutusSlider1 {
+    position: absolute;
+    right: -82px;
+    top: 820px;
+    overflow: hidden;
+    text-align: start;
+    transition: .5s ease;
+}
+.aboutusB1:hover .aboutusSlider1{
+    right: 0;
+}
+.aboutusSlider2 {
+    position: absolute;
+    right: -61px;
+    top: 870px;
+    overflow: hidden;
+    text-align: start;
+    transition: .5s ease;
+}
+.aboutusB2:hover .aboutusSlider2{
+    right: 0;
+}
+.aboutusSlider3 {
+    position: absolute;
+    right: -50px;
+    top: 920px;
+    overflow: hidden;
+    text-align: start;
+    transition: .5s ease;
+}
+.aboutusB3:hover .aboutusSlider3{
+    right: 0;
+}
+.icons {
+    font-size: 48px;
+    transition: .1s ease;
+    overflow: hidden;
+    position: relative;
+}
+.iconDiv:hover .icons {
+    font-size: 50px;
+}

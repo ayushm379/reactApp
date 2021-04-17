@@ -1,0 +1,29 @@
+.button {
+    border-radius: 18px;
+}
+.navText {
+    color: black
+}
+.header:hover .login{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+@keyframes shake {
+    10%, 90% {
+      transform: rotate(9deg);
+    }
+    
+    20%, 80% {
+      transform: rotate(-9deg);
+    }
+  
+    30%, 50%, 70% {
+      transform: rotate(9deg);
+    }
+  
+    40%, 60% {
+      transform: rotate(-9deg);
+    }
+}

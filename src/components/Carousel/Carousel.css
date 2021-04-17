@@ -1,0 +1,4 @@
+.button {
+    bottom: "50%";
+    animation: glow 1s ease-in-out infinite alternate;
+}
